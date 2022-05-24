@@ -1,0 +1,101 @@
+.navb {
+  background-color: rgb(9, 122, 197);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  font-size: 1em;
+  font-weight: 800;
+
+  height: 59px;
+}
+.log {
+  display: flex;
+  flex-direction: column;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+}
+.logo1 {
+  width: 75px;
+  height: 20px;
+}
+.text {
+  font-size: 11px;
+  font-style: italic;
+  margin-top: -1px;
+}
+.text a,
+img {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+.text .span {
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}
+.btn {
+  width: 130px;
+  height: 40px;
+  background-color: white;
+  color: rgb(70, 151, 206);
+  border: none;
+  font-size: 0.8em;
+}
+.login .options {
+  display: none;
+}
+.login:hover .options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+.login .options span {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+.login .options span:hover {
+  background-color: rgb(70, 151, 206);
+  color: white;
+  font-size: 0.8em;
+}
+.profile .options {
+  display: none;
+}
+.profile:hover .options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+.profile .options span {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 0.7em;
+  font-weight: 200;
+}
+.profile .options span:hover {
+  background-color: rgb(70, 151, 206);
+  color: white;
+}
+.Obj {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Obj span {
+  font-size: 1em;
+}

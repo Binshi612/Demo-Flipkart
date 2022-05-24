@@ -1,0 +1,8 @@
+.page {
+  display: flex;
+  flex-direction: row;
+  width: 1369px;
+}
+.left {
+  width: 400px;
+}

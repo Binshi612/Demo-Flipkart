@@ -1,0 +1,33 @@
+.list {
+  /* background-color: burlywood; */
+  width: 1350px;
+  height: 350px;
+}
+.list h1 {
+  font-size: 1.5em;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.offers {
+  width: 1350px;
+  height: 300px;
+}
+.img1 {
+  width: 113px;
+  height: 150px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+}
+.p2 {
+  color: green;
+}
+.p3 {
+  color: gray;
+}
