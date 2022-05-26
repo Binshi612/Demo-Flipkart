@@ -1,8 +1,96 @@
 .page {
   display: flex;
   flex-direction: row;
-  width: 1369px;
+  width: 100vw;
+  height: 515px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .left {
-  width: 400px;
+  /* background-color: aquamarine; */
+  width: 40vw;
+  height: 515px;
+}
+.left img {
+  height: 420px;
+  width: 20vw;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+.footer button {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 260px;
+  height: 50px;
+  border-radius: 4px;
+}
+.btn1 {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+.btn2 {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+.right {
+  width: 60vw;
+}
+.theme {
+  margin-top: 60px;
+  margin-left: 80px;
+}
+.theme h1 {
+  font-size: 1.5em;
+  color: rgb(52, 50, 50);
+}
+.theme h2 {
+  font-size: 1em;
+  color: green;
+}
+.theme h3 {
+  font-size: 1.7em;
+}
+.theme .old {
+  font-size: 0.7em;
+  color: gray;
+  text-decoration: line-through;
+  padding-left: 30px;
+}
+.off {
+  font-size: 0.8em;
+  color: green;
+  padding-left: 30px;
+}
+.theme h4 {
+  font-size: 1.2em;
+}
+.theme span {
+  font-weight: bold;
+  color: green;
+}
+.service {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.service h1 {
+  color: blue;
+  font-size: 1.1em;
+}
+.service p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.size {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.size p {
+  font-size: 1.1.em;
+  font-weight: 500;
+}
+.size button {
+  width: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
 }

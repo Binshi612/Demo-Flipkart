@@ -65,7 +65,7 @@ function Navbar() {
         </a>
       </div>
       {/* <SearchIcon className="icon" /> */}
-      <Search>
+      <Search className="head search">
         <SearchIconWrapper>
           <SearchIcon />
         </SearchIconWrapper>
@@ -74,8 +74,7 @@ function Navbar() {
           inputProps={{ "aria-label": "search" }}
         />
       </Search>
-      <span></span>
-      <div className="login">
+      <div className="login head">
         <button className="btn">
           Login
           <div className="options">
@@ -86,10 +85,10 @@ function Navbar() {
           </div>
         </button>
       </div>
-      <span>Become a seller</span>
+      <span className="head">Become a seller</span>
       <div className="profile">
         <div className="Obj">
-          <span>More</span>
+          <span className="head">More</span>
           <ArrowDropDownIcon />
         </div>
         <div className="options">
@@ -97,7 +96,7 @@ function Navbar() {
           <span>Download</span>
         </div>
       </div>{" "}
-      <div className="Obj">
+      <div className="Obj head">
         <ShoppingCartIcon></ShoppingCartIcon>
         <span>cart</span>
       </div>
