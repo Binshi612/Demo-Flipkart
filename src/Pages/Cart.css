@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(191, 216, 237);
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+}
+.cart .lef {
+  width: 800px;
+  height: 370px;
+  background-color: antiquewhite;
+  margin: 150px 50px;
+  box-shadow: rgba(112, 151, 250, 0.517) 0px 5px 15px;
+}
+.cart .righ {
+  width: 400px;
+  height: 300px;
+  background-color: antiquewhite;
+  margin: 150px 50px;
+}
+.righ h1 {
+  font-size: 1.3em;
+  color: gray;
+  margin-left: 15px;
+}
+.righ h2 {
+  font-size: 1em;
+  margin: 10px 20px;
+}
+.Pay {
+  display: flex;
+  flex-direction: row;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+}
+.free {
+  color: green;
+  font-weight: 700;
+}
+.righ h3 {
+  margin-left: 20px;
+}
+.righ h4 {
+  margin: 20px 25px;
+  color: green;
+}
